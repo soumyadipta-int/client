@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Order xmlns="urn:oasis:names:specification:ubl:schema:xsd:Order-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
+<cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+<cbc:CustomizationID>urn:www.cenbii.eu:transaction:biitrns001:ver2.0:extended:urn:www.peppol.eu:bis:peppol28a:ver1.0</cbc:CustomizationID>
+<cbc:ProfileID>urn:www.cenbii.eu:profile:bii28:ver2.0</cbc:ProfileID>
+<cbc:ID>2015-03-12T11:31:41-00:00.1314977581@</cbc:ID>
+<cbc:SalesOrderID>LG558551</cbc:SalesOrderID>
+<cbc:IssueDate>2015-03-12T12:00:00-00:00</cbc:IssueDate>
+<cbc:IssueTime>12:00:00</cbc:IssueTime>
+<cbc:RequestedInvoiceCurrencyCode>GBP</cbc:RequestedInvoiceCurrencyCode>
+<cbc:DocumentCurrencyCode>GBP</cbc:DocumentCurrencyCode>
+<cbc:PricingCurrencyCode>GBP</cbc:PricingCurrencyCode>
+<cbc:TaxCurrencyCode>GBP</cbc:TaxCurrencyCode>
+<cbc:CustomerReference>LG558551</cbc:CustomerReference>
+<cac:BuyerCustomerParty>
+<cbc:CustomerAssignedAccountID schemeName="DUNS">217696063</cbc:CustomerAssignedAccountID>
+<cbc:SupplierAssignedAccountID schemeName="EAN"></cbc:SupplierAssignedAccountID>
+<cac:Party>
+<cac:PartyName>
+<cbc:Name>University Hospitals of Leicester NHS Trust</cbc:Name>
+</cac:PartyName>
+<cac:PostalAddress>
+<cbc:StreetName>Infirmary Square</cbc:StreetName>
+<cbc:BuildingName>Leicester Royal Infirmary</cbc:BuildingName>
+<cbc:CityName>Leicester</cbc:CityName>
+<cbc:PostalZone>LE1 5WW</cbc:PostalZone>
+<cbc:District>Leicestershire</cbc:District>
+<cac:Country>
+<cbc:Name>England</cbc:Name>
+</cac:Country>
+</cac:PostalAddress>
+<cac:PhysicalLocation>
+<cbc:Name>University Hospitals of Leicester NHS Trust</cbc:Name>
+<cac:Address>
+<cbc:StreetName>Infirmary Square</cbc:StreetName>
+<cbc:BuildingName>Leicester Royal Infirmary</cbc:BuildingName>
+<cbc:CityName>Leicester</cbc:CityName>
+<cbc:PostalZone>LE1 5WW</cbc:PostalZone>
+<cbc:District>Leicestershire</cbc:District>
+<cac:Country>
+<cbc:Name>England</cbc:Name>
+</cac:Country>
+</cac:Address>
+</cac:PhysicalLocation>
+<cac:PartyTaxScheme>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:PartyTaxScheme>
+<cac:Contact>
+<cbc:Name>JESSICA MARSHALL</cbc:Name>
+<cbc:ElectronicMail>jessica.a.marshall@uhl-tr.nhs.uk</cbc:ElectronicMail>
+</cac:Contact>
+</cac:Party>
+<cac:DeliveryContact>
+<cbc:Name>JESSICA MARSHALL</cbc:Name>
+<cbc:ElectronicMail>jessica.a.marshall@uhl-tr.nhs.uk</cbc:ElectronicMail>
+</cac:DeliveryContact>
+</cac:BuyerCustomerParty>
+<cac:SellerSupplierParty>
+<cbc:CustomerAssignedAccountID schemeName="DUNS">225548841</cbc:CustomerAssignedAccountID>
+<cbc:AdditionalAccountID schemeName="EAN"></cbc:AdditionalAccountID>
+<cac:Party>
+<cac:PartyName>
+<cbc:Name>Zimmer Ltd</cbc:Name>
+</cac:PartyName>
+<cac:PostalAddress>
+<cbc:StreetName>The Courtyard, Lancaster Place, South Marston Park</cbc:StreetName>
+<cbc:CityName>Swindon</cbc:CityName>
+<cbc:PostalZone>SN3 4FP</cbc:PostalZone>
+<cbc:District>Wiltshire</cbc:District>
+<cac:Country>
+<cbc:Name>England</cbc:Name>
+</cac:Country>
+</cac:PostalAddress>
+</cac:Party>
+</cac:SellerSupplierParty>
+<cac:OriginatorCustomerParty>
+<cbc:CustomerAssignedAccountID schemeName="DUNS">217696063</cbc:CustomerAssignedAccountID>
+<cac:Party>
+<cac:PartyName>
+<cbc:Name>University Hospitals of Leicester NHS Trust</cbc:Name>
+</cac:PartyName>
+</cac:Party>
+</cac:OriginatorCustomerParty>
+<cac:AccountingCustomerParty>
+<cbc:CustomerAssignedAccountID>P02</cbc:CustomerAssignedAccountID>
+<cac:Party>
+<cac:PartyName>
+<cbc:Name languageID="en-GB">UNIVERSITY HOSPITALS OF LEICESTER NHS TRUST</cbc:Name>
+</cac:PartyName>
+<cac:PostalAddress>
+<cbc:StreetName>Accounts Payable Department</cbc:StreetName>
+<cbc:CityName>PO BOX 189</cbc:CityName>
+<cbc:PostalZone>LE1 5WP</cbc:PostalZone>
+<cbc:District>Leicester Royal Infirmary</cbc:District>
+</cac:PostalAddress>
+</cac:Party>
+</cac:AccountingCustomerParty>
+<cac:Delivery>
+<cbc:ID>LGH</cbc:ID>
+<cac:DeliveryAddress>
+<cbc:ID>LGH</cbc:ID>
+<cbc:StreetName>LEICESTER GENERAL HOSPITAL</cbc:StreetName>
+<cbc:BuildingName>LEICESTER GENERAL HOSPITAL</cbc:BuildingName>
+<cbc:CityName>GWENDOLEN ROAD</cbc:CityName>
+<cbc:PostalZone>LE5 4PW</cbc:PostalZone>
+<cbc:District>LEICESTER</cbc:District>
+</cac:DeliveryAddress>
+<cac:DeliveryParty>
+<cac:PartyName>
+<cbc:Name>RECEIPTS &amp; DISTRIBUTION</cbc:Name>
+</cac:PartyName>
+</cac:DeliveryParty>
+</cac:Delivery>
+<cac:TaxTotal>
+<cbc:TaxAmount currencyID="GBP">27.2</cbc:TaxAmount>
+</cac:TaxTotal>
+<cac:AnticipatedMonetaryTotal>
+<cbc:LineExtensionAmount currencyID="GBP">136.0</cbc:LineExtensionAmount>
+<cbc:PayableAmount currencyID="GBP">136.0</cbc:PayableAmount>
+</cac:AnticipatedMonetaryTotal>
+<cac:OrderLine>
+<cbc:Note>
+01.00324.044 DURASAL CUP
+</cbc:Note>
+<cac:LineItem>
+<cbc:ID>1</cbc:ID>
+<cbc:SalesOrderID>LG558551</cbc:SalesOrderID>
+<cbc:Note>
+01.00324.044 DURASAL CUP
+</cbc:Note>
+<cbc:LineExtensionAmount currencyID="GBP">136.0</cbc:LineExtensionAmount>
+<cbc:TotalTaxAmount currencyID="GBP">27.2</cbc:TotalTaxAmount>
+<cac:Price>
+<cbc:PriceAmount currencyID="GBP">136.0</cbc:PriceAmount>
+</cac:Price>
+<cac:Item>
+<cbc:Description languageID="en-GB">01.00324.044 DURASAL CUP</cbc:Description>
+<cbc:Name>01.00324.044</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>01.00324.044</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:CatalogueItemIdentification>
+<cbc:ID>01.00324.044</cbc:ID>
+</cac:CatalogueItemIdentification>
+</cac:Item>
+<cac:TaxTotal>
+<cbc:TaxAmount currencyID="GBP">27.2</cbc:TaxAmount>
+<cac:TaxSubtotal>
+<cbc:TaxableAmount currencyID="GBP">136.0</cbc:TaxableAmount>
+<cbc:TaxAmount currencyID="GBP">27.2</cbc:TaxAmount>
+<cac:TaxCategory>
+<cbc:Name languageID="en-GB">22Total Line Item Tax</cbc:Name>
+<cac:TaxScheme/>
+</cac:TaxCategory>
+</cac:TaxSubtotal>
+</cac:TaxTotal>
+</cac:LineItem>
+</cac:OrderLine>
+</Order>
+

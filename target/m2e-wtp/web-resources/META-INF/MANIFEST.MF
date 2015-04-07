@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: peppol-client
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Administrator
+Implementation-Vendor-Id: peppol-client
+Build-Jdk: 1.8.0_40
+Implementation-URL: https://github.com/phax/ph-parent-pom/peppol-clien
+ t
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Philip Helger
+

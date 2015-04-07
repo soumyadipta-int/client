@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DespatchAdvice xmlns="urn:oasis:names:specification:ubl:schema:xsd:DespatchAdvice-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
+<cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+<cbc:ProfileID>urn:www.cenbii.eu:profile:bii30:ver2.0</cbc:ProfileID>
+<cbc:ID>1234XXX</cbc:ID>
+<cbc:IssueDate/>
+<cac:OrderReference>
+<cbc:ID>4321XXX</cbc:ID>
+<cbc:SalesOrderID>4321XXX</cbc:SalesOrderID>
+</cac:OrderReference>
+<cac:DespatchSupplierParty>
+<cbc:CustomerAssignedAccountID schemeName="DUNS">44444444</cbc:CustomerAssignedAccountID>
+<cbc:AdditionalAccountID>0123456789123</cbc:AdditionalAccountID>
+<cac:Party>
+<cac:PartyIdentification>
+<cbc:ID>44444444</cbc:ID>
+</cac:PartyIdentification>
+<cac:PartyName>
+<cbc:Name>GHX Test Supplier</cbc:Name>
+</cac:PartyName>
+<cac:PostalAddress>
+<cbc:AdditionalStreetName>11 Bury Road</cbc:AdditionalStreetName>
+<cbc:CityName>Thetford</cbc:CityName>
+<cbc:PostalZone>IP24 3PJ</cbc:PostalZone>
+<cbc:CountrySubentity>Norfolk</cbc:CountrySubentity>
+<cac:Country>
+<cbc:Name>England</cbc:Name>
+</cac:Country>
+</cac:PostalAddress>
+</cac:Party>
+</cac:DespatchSupplierParty>
+<cac:DeliveryCustomerParty>
+<cbc:CustomerAssignedAccountID>321654987</cbc:CustomerAssignedAccountID>
+<cbc:AdditionalAccountID>01234567891234</cbc:AdditionalAccountID>
+<cac:Party>
+<cac:PartyIdentification>
+<cbc:ID>321654987</cbc:ID>
+</cac:PartyIdentification>
+</cac:Party>
+</cac:DeliveryCustomerParty>
+<cac:BuyerCustomerParty>
+<cbc:CustomerAssignedAccountID>321654987</cbc:CustomerAssignedAccountID>
+<cbc:AdditionalAccountID>01234567891234</cbc:AdditionalAccountID>
+<cac:Party>
+<cac:PartyIdentification>
+<cbc:ID>321654987</cbc:ID>
+</cac:PartyIdentification>
+<cac:PartyName>
+<cbc:Name>Customer Training(Phill)</cbc:Name>
+</cac:PartyName>
+</cac:Party>
+</cac:BuyerCustomerParty>
+<cac:SellerSupplierParty>
+<cbc:CustomerAssignedAccountID>44444444</cbc:CustomerAssignedAccountID>
+<cbc:AdditionalAccountID>0123456789123</cbc:AdditionalAccountID>
+<cac:Party>
+<cac:PartyIdentification>
+<cbc:ID>44444444</cbc:ID>
+</cac:PartyIdentification>
+<cac:PartyName>
+<cbc:Name>GHX Test Supplier</cbc:Name>
+</cac:PartyName>
+</cac:Party>
+<cac:DespatchContact>
+<cbc:Name>Sender Company</cbc:Name>
+</cac:DespatchContact>
+</cac:SellerSupplierParty>
+<cac:OriginatorCustomerParty>
+<cbc:CustomerAssignedAccountID>321654987</cbc:CustomerAssignedAccountID>
+<cbc:AdditionalAccountID>01234567891234</cbc:AdditionalAccountID>
+<cac:Party>
+<cac:PartyIdentification>
+<cbc:ID>321654987</cbc:ID>
+</cac:PartyIdentification>
+<cac:PartyName>
+<cbc:Name>Customer Training(Phill)</cbc:Name>
+</cac:PartyName>
+<cac:PostalAddress>
+<cbc:StreetName>Trinity House</cbc:StreetName>
+<cbc:AdditionalStreetName>Cambridge Business Park</cbc:AdditionalStreetName>
+<cbc:CityName>Cambridge</cbc:CityName>
+<cbc:PostalZone>CB4 0WZ</cbc:PostalZone>
+<cbc:CountrySubentity>Cambs</cbc:CountrySubentity>
+<cac:Country>
+<cbc:Name>United Kingdom</cbc:Name>
+</cac:Country>
+</cac:PostalAddress>
+</cac:Party>
+</cac:OriginatorCustomerParty>
+<cac:Shipment>
+<cbc:ID>NA</cbc:ID>
+</cac:Shipment>
+<cac:DespatchLine>
+<cbc:ID>1</cbc:ID>
+<cbc:DeliveredQuantity unitCode="EA">10.0</cbc:DeliveredQuantity>
+<cac:OrderLineReference>
+<cbc:LineID>1</cbc:LineID>
+</cac:OrderLineReference>
+<cac:Item/>
+</cac:DespatchLine>
+<cac:DespatchLine>
+<cbc:ID>2</cbc:ID>
+<cbc:DeliveredQuantity unitCode="EA">10.0</cbc:DeliveredQuantity>
+<cac:OrderLineReference>
+<cbc:LineID>2</cbc:LineID>
+</cac:OrderLineReference>
+<cac:Item/>
+</cac:DespatchLine>
+</DespatchAdvice>
+

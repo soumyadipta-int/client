@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Order xmlns="urn:oasis:names:specification:ubl:schema:xsd:Order-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
+<cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+<cbc:CustomizationID>urn:www.cenbii.eu:transaction:biitrns001:ver2.0:extended:urn:www.peppol.eu:bis:peppol28a:ver1.0</cbc:CustomizationID>
+<cbc:ProfileID>urn:www.cenbii.eu:profile:bii28:ver2.0</cbc:ProfileID>
+<cbc:ID>2015-03-06-15-12-37.407978:0:81.193300389016294001</cbc:ID>
+<cbc:SalesOrderID>407978</cbc:SalesOrderID>
+<cbc:IssueDate>2015-03-06T03:10:52+00:00</cbc:IssueDate>
+<cbc:IssueTime>03:10:52</cbc:IssueTime>
+<cbc:Note>USD0</cbc:Note>
+<cbc:RequestedInvoiceCurrencyCode>GBP</cbc:RequestedInvoiceCurrencyCode>
+<cbc:DocumentCurrencyCode>GBP</cbc:DocumentCurrencyCode>
+<cbc:PricingCurrencyCode>GBP</cbc:PricingCurrencyCode>
+<cbc:TaxCurrencyCode>GBP</cbc:TaxCurrencyCode>
+<cbc:CustomerReference>407978</cbc:CustomerReference>
+<cac:BuyerCustomerParty>
+<cbc:CustomerAssignedAccountID schemeName="DUNS">231811758</cbc:CustomerAssignedAccountID>
+<cbc:SupplierAssignedAccountID schemeName="EAN">5033466410408</cbc:SupplierAssignedAccountID>
+<cac:Party>
+<cac:PartyIdentification>
+<cbc:ID schemeName="EAN">5033466410408</cbc:ID>
+</cac:PartyIdentification>
+<cac:PartyName>
+<cbc:Name>Salisbury NHS Foundation Trust</cbc:Name>
+</cac:PartyName>
+<cac:PostalAddress>
+<cbc:StreetName>Odstock Road</cbc:StreetName>
+<cbc:BuildingName>Salisbury District Hospital</cbc:BuildingName>
+<cbc:CityName>Salisbury</cbc:CityName>
+<cbc:PostalZone>SP2 8BJ</cbc:PostalZone>
+<cbc:District>Wiltshire</cbc:District>
+<cac:Country>
+<cbc:Name>England</cbc:Name>
+</cac:Country>
+</cac:PostalAddress>
+<cac:PhysicalLocation>
+<cbc:Name>Salisbury NHS Foundation Trust</cbc:Name>
+<cac:Address>
+<cbc:StreetName>Odstock Road</cbc:StreetName>
+<cbc:BuildingName>Salisbury District Hospital</cbc:BuildingName>
+<cbc:CityName>Salisbury</cbc:CityName>
+<cbc:PostalZone>SP2 8BJ</cbc:PostalZone>
+<cbc:District>Wiltshire</cbc:District>
+<cac:Country>
+<cbc:Name>England</cbc:Name>
+</cac:Country>
+</cac:Address>
+</cac:PhysicalLocation>
+<cac:PartyTaxScheme>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:PartyTaxScheme>
+<cac:Contact>
+<cbc:Name>Parsons, Adam</cbc:Name>
+<cbc:Telephone>01722 336262 Ext 4055</cbc:Telephone>
+<cbc:ElectronicMail>procurement@salisbury.nhs.uk</cbc:ElectronicMail>
+</cac:Contact>
+</cac:Party>
+<cac:DeliveryContact>
+<cbc:Name>Parsons, Adam</cbc:Name>
+<cbc:Telephone>01722 336262 Ext 4055</cbc:Telephone>
+<cbc:ElectronicMail>procurement@salisbury.nhs.uk</cbc:ElectronicMail>
+</cac:DeliveryContact>
+</cac:BuyerCustomerParty>
+<cac:SellerSupplierParty>
+<cbc:CustomerAssignedAccountID schemeName="DUNS">736906541</cbc:CustomerAssignedAccountID>
+<cbc:AdditionalAccountID schemeName="EAN">8714729000006</cbc:AdditionalAccountID>
+<cac:Party>
+<cac:PartyName>
+<cbc:Name>Boston Scientific Ltd</cbc:Name>
+</cac:PartyName>
+<cac:PostalAddress>
+<cbc:StreetName>Breakspear Park, Breakspear Way</cbc:StreetName>
+<cbc:CityName>Hemel Hempstead</cbc:CityName>
+<cbc:PostalZone>HP2 4TZ</cbc:PostalZone>
+<cbc:District>Hertfordshire</cbc:District>
+<cac:Country>
+<cbc:Name>England</cbc:Name>
+</cac:Country>
+</cac:PostalAddress>
+</cac:Party>
+</cac:SellerSupplierParty>
+<cac:OriginatorCustomerParty>
+<cbc:CustomerAssignedAccountID schemeName="DUNS">231811758</cbc:CustomerAssignedAccountID>
+<cbc:SupplierAssignedAccountID schemeName="EAN">5033466410408</cbc:SupplierAssignedAccountID>
+<cac:Party>
+<cac:PartyIdentification>
+<cbc:ID schemeName="EAN">5033466410408</cbc:ID>
+</cac:PartyIdentification>
+<cac:PartyName>
+<cbc:Name>Salisbury NHS Foundation Trust</cbc:Name>
+</cac:PartyName>
+</cac:Party>
+</cac:OriginatorCustomerParty>
+<cac:AccountingCustomerParty>
+<cbc:CustomerAssignedAccountID>Salisbury District Hospital</cbc:CustomerAssignedAccountID>
+<cac:Party>
+<cac:PartyName>
+<cbc:Name languageID="en">SHCT Organisation</cbc:Name>
+</cac:PartyName>
+<cac:PostalAddress>
+<cbc:StreetName>Salisbury District Hospital Odstock Road </cbc:StreetName>
+<cbc:CityName>Salisbury</cbc:CityName>
+<cbc:PostalZone>SP2 8BJ</cbc:PostalZone>
+<cac:Country>
+<cbc:IdentificationCode>GB</cbc:IdentificationCode>
+<cbc:Name>GB</cbc:Name>
+</cac:Country>
+</cac:PostalAddress>
+<cac:Contact>
+<cbc:Telephone>01722 336262</cbc:Telephone>
+</cac:Contact>
+</cac:Party>
+</cac:AccountingCustomerParty>
+<cac:Delivery>
+<cbc:ID>117010</cbc:ID>
+<cac:DeliveryAddress>
+<cbc:ID>117010</cbc:ID>
+<cbc:StreetName>Main Theatres Salisbury District Hospital </cbc:StreetName>
+<cbc:BuildingName>Main Theatres Salisbury District Hospital </cbc:BuildingName>
+<cbc:CityName>Salisbury</cbc:CityName>
+<cbc:PostalZone>SP2 8BJ</cbc:PostalZone>
+<cac:Country>
+<cbc:Name>GB</cbc:Name>
+</cac:Country>
+</cac:DeliveryAddress>
+</cac:Delivery>
+<cac:AnticipatedMonetaryTotal>
+<cbc:LineExtensionAmount currencyID="GBP">126.0</cbc:LineExtensionAmount>
+<cbc:PayableAmount currencyID="GBP">126.0</cbc:PayableAmount>
+</cac:AnticipatedMonetaryTotal>
+<cac:OrderLine>
+<cac:LineItem>
+<cbc:ID>1</cbc:ID>
+<cbc:SalesOrderID>407978</cbc:SalesOrderID>
+<cbc:Quantity>1.0</cbc:Quantity>
+<cbc:LineExtensionAmount currencyID="GBP">126.0</cbc:LineExtensionAmount>
+<cbc:TotalTaxAmount currencyID="GBP">25.2</cbc:TotalTaxAmount>
+<cac:Delivery>
+<cbc:Quantity>1.0</cbc:Quantity>
+</cac:Delivery>
+<cac:Price>
+<cbc:PriceAmount currencyID="GBP">126.0</cbc:PriceAmount>
+<cbc:BaseQuantity>1.0</cbc:BaseQuantity>
+</cac:Price>
+<cac:Item>
+<cbc:Description languageID="en">Guidewire Sensor Dual Flex PTFE Nitinol 0.035 inch 150 cm Straight 3 cm Flexible Tip 1 (CN:MSP357)</cbc:Description>
+<cbc:PackQuantity>1.0</cbc:PackQuantity>
+<cbc:Name>M0066703081</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>M0066703081</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:CatalogueItemIdentification>
+<cbc:ID>M0066703081</cbc:ID>
+</cac:CatalogueItemIdentification>
+</cac:Item>
+<cac:TaxTotal>
+<cbc:TaxAmount currencyID="GBP">25.2</cbc:TaxAmount>
+<cac:TaxSubtotal>
+<cbc:TaxableAmount currencyID="GBP">126.0</cbc:TaxableAmount>
+<cbc:TaxAmount currencyID="GBP">25.2</cbc:TaxAmount>
+<cbc:Percent>20.0</cbc:Percent>
+<cac:TaxCategory>
+<cbc:Name languageID="en">SALESStd Non Rec</cbc:Name>
+<cac:TaxScheme/>
+</cac:TaxCategory>
+</cac:TaxSubtotal>
+</cac:TaxTotal>
+</cac:LineItem>
+</cac:OrderLine>
+</Order>
+

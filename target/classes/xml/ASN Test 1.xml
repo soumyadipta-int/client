@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DespatchAdvice xmlns="urn:oasis:names:specification:ubl:schema:xsd:DespatchAdvice-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
+<cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+<cbc:ProfileID>urn:www.cenbii.eu:profile:bii30:ver2.0</cbc:ProfileID>
+<cbc:ID>0171290328</cbc:ID>
+<cbc:IssueDate>2015-02-23</cbc:IssueDate>
+<cbc:IssueTime>00:00:00</cbc:IssueTime>
+<cac:OrderReference>
+<cbc:ID>756878</cbc:ID>
+<cbc:SalesOrderID>756878</cbc:SalesOrderID>
+</cac:OrderReference>
+<cac:DespatchSupplierParty>
+<cbc:CustomerAssignedAccountID schemeName="DUNS">222921780</cbc:CustomerAssignedAccountID>
+<cac:Party>
+<cac:PartyIdentification>
+<cbc:ID>222921780</cbc:ID>
+</cac:PartyIdentification>
+<cac:PartyName>
+<cbc:Name>Draeger Ltd</cbc:Name>
+</cac:PartyName>
+<cac:PostalAddress>
+<cbc:AdditionalStreetName>The Willows, Mark Road</cbc:AdditionalStreetName>
+<cbc:CityName>Hemel Hempstead</cbc:CityName>
+<cbc:PostalZone>HP2 7BW</cbc:PostalZone>
+<cbc:CountrySubentity>Hertfordshire</cbc:CountrySubentity>
+<cac:Country>
+<cbc:Name>England</cbc:Name>
+</cac:Country>
+</cac:PostalAddress>
+</cac:Party>
+</cac:DespatchSupplierParty>
+<cac:DeliveryCustomerParty>
+<cbc:CustomerAssignedAccountID>548640028</cbc:CustomerAssignedAccountID>
+<cbc:AdditionalAccountID>5033466007134</cbc:AdditionalAccountID>
+<cac:Party>
+<cac:PartyIdentification>
+<cbc:ID>548640028</cbc:ID>
+</cac:PartyIdentification>
+</cac:Party>
+</cac:DeliveryCustomerParty>
+<cac:BuyerCustomerParty>
+<cbc:CustomerAssignedAccountID>548640028</cbc:CustomerAssignedAccountID>
+<cbc:AdditionalAccountID>5033466007134</cbc:AdditionalAccountID>
+<cac:Party>
+<cac:PartyIdentification>
+<cbc:ID>548640028</cbc:ID>
+</cac:PartyIdentification>
+<cac:PartyName>
+<cbc:Name>Cambridge University Hospitals NHS Foundation Trust</cbc:Name>
+</cac:PartyName>
+</cac:Party>
+</cac:BuyerCustomerParty>
+<cac:SellerSupplierParty>
+<cbc:CustomerAssignedAccountID>222921780</cbc:CustomerAssignedAccountID>
+<cac:Party>
+<cac:PartyIdentification>
+<cbc:ID>222921780</cbc:ID>
+</cac:PartyIdentification>
+<cac:PartyName>
+<cbc:Name>Draeger Ltd</cbc:Name>
+</cac:PartyName>
+</cac:Party>
+</cac:SellerSupplierParty>
+<cac:OriginatorCustomerParty>
+<cbc:CustomerAssignedAccountID>548640028</cbc:CustomerAssignedAccountID>
+<cbc:AdditionalAccountID>5033466007134</cbc:AdditionalAccountID>
+<cac:Party>
+<cac:PartyIdentification>
+<cbc:ID>548640028</cbc:ID>
+</cac:PartyIdentification>
+<cac:PartyName>
+<cbc:Name>Cambridge University Hospitals NHS Foundation Trust</cbc:Name>
+</cac:PartyName>
+<cac:PostalAddress>
+<cbc:StreetName>Addenbrookes Hospital</cbc:StreetName>
+<cbc:AdditionalStreetName>Hills Road</cbc:AdditionalStreetName>
+<cbc:CityName>Cambridge</cbc:CityName>
+<cbc:PostalZone>CB2 2QQ</cbc:PostalZone>
+<cbc:CountrySubentity>Cambridgeshire</cbc:CountrySubentity>
+<cac:Country>
+<cbc:Name>England</cbc:Name>
+</cac:Country>
+</cac:PostalAddress>
+</cac:Party>
+</cac:OriginatorCustomerParty>
+<cac:Shipment>
+<cbc:ID>0171290328</cbc:ID>
+<cac:Delivery>
+<cbc:TrackingID>0171290328</cbc:TrackingID>
+<cac:Despatch>
+<cbc:ActualDespatchDate>2015-02-23</cbc:ActualDespatchDate>
+</cac:Despatch>
+</cac:Delivery>
+</cac:Shipment>
+<cac:DespatchLine>
+<cbc:ID>1</cbc:ID>
+<cbc:DeliveredQuantity unitCode="EA">1.0</cbc:DeliveredQuantity>
+<cac:OrderLineReference>
+<cbc:LineID>1</cbc:LineID>
+</cac:OrderLineReference>
+<cac:Item>
+<cbc:Description>PCB2 ASSY,PWR BD TI500</cbc:Description>
+<cac:ManufacturersItemIdentification>
+<cbc:ID>MU05803</cbc:ID>
+</cac:ManufacturersItemIdentification>
+<cac:AdditionalItemIdentification>
+<cbc:ID>04048675004288</cbc:ID>
+</cac:AdditionalItemIdentification>
+</cac:Item>
+</cac:DespatchLine>
+</DespatchAdvice>
+

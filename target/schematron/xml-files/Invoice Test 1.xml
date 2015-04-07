@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
+<cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+<cbc:CustomizationID>urn:www.cenbii.eu:transaction:biitrns016:ver1.0:extended:urn:www.peppol.eu:bis:peppol30a:ver1.0</cbc:CustomizationID>
+<cbc:ProfileID schemeID="urn:oioubl:id:profileid-1.2" schemeAgencyID="320"></cbc:ProfileID>
+<cbc:ID>15000074-RI10656</cbc:ID>
+<cbc:IssueDate>2015-03-16</cbc:IssueDate>
+<cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
+<cbc:DocumentCurrencyCode>GBP</cbc:DocumentCurrencyCode>
+<cac:OrderReference>
+<cbc:ID>TST LO - UAT E2</cbc:ID>
+</cac:OrderReference>
+<cac:AccountingSupplierParty>
+<cbc:AdditionalAccountID schemeID="EAN">5019634000019</cbc:AdditionalAccountID>
+<cac:Party>
+<cac:PartyIdentification>
+<cbc:ID schemeID="DUNS">215883794</cbc:ID>
+</cac:PartyIdentification>
+<cac:PartyName>
+<cbc:Name>Johnson &amp; Johnson Medical Ltd</cbc:Name>
+</cac:PartyName>
+<cac:PostalAddress>
+<cbc:AdditionalStreetName>The Braccens, London Road</cbc:AdditionalStreetName>
+<cbc:CityName>Bracknell</cbc:CityName>
+<cbc:PostalZone>RG12 2AT</cbc:PostalZone>
+<cbc:CountrySubentity>Berkshire</cbc:CountrySubentity>
+<cac:Country>
+<cbc:Name>England</cbc:Name>
+</cac:Country>
+</cac:PostalAddress>
+<cac:Contact>
+<cbc:Name>Johnson &amp; Johnson Medical Ltd. UK</cbc:Name>
+</cac:Contact>
+</cac:Party>
+</cac:AccountingSupplierParty>
+<cac:AccountingCustomerParty>
+<cbc:CustomerAssignedAccountID schemeID="DUNS">548644111</cbc:CustomerAssignedAccountID>
+<cbc:AdditionalAccountID schemeID="EAN">5033466274086</cbc:AdditionalAccountID>
+<cac:Party>
+<cac:PartyIdentification>
+<cbc:ID schemeID="DUNS">548644111</cbc:ID>
+</cac:PartyIdentification>
+<cac:PartyName>
+<cbc:Name>Guy's and St Thomas' NHS Foundation Trust (UAT)</cbc:Name>
+</cac:PartyName>
+<cac:PostalAddress>
+<cbc:StreetName>Trust Offices</cbc:StreetName>
+<cbc:AdditionalStreetName>Guy's Hospital, Great Maze Pond</cbc:AdditionalStreetName>
+<cbc:CityName>London</cbc:CityName>
+<cbc:PostalZone>SE1 9RT</cbc:PostalZone>
+<cbc:CountrySubentity>Greater London</cbc:CountrySubentity>
+<cac:Country>
+<cbc:Name>England</cbc:Name>
+</cac:Country>
+</cac:PostalAddress>
+</cac:Party>
+</cac:AccountingCustomerParty>
+<cac:TaxTotal>
+<cbc:TaxAmount currencyID="">88.74</cbc:TaxAmount>
+<cac:TaxSubtotal>
+<cbc:TaxableAmount currencyID="GBP">443.68</cbc:TaxableAmount>
+<cbc:TaxAmount currencyID="GBP">88.74</cbc:TaxAmount>
+<cac:TaxCategory>
+<cbc:ID>vat</cbc:ID>
+<cbc:Percent>20.0</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>GB592926302</cbc:ID>
+</cac:TaxScheme>
+</cac:TaxCategory>
+</cac:TaxSubtotal>
+</cac:TaxTotal>
+<cac:LegalMonetaryTotal>
+<cbc:LineExtensionAmount currencyID="GBP">443.68</cbc:LineExtensionAmount>
+<cbc:TaxExclusiveAmount currencyID="GBP">443.68</cbc:TaxExclusiveAmount>
+<cbc:TaxInclusiveAmount currencyID="GBP">532.42</cbc:TaxInclusiveAmount>
+<cbc:PayableAmount currencyID="GBP">532.42</cbc:PayableAmount>
+</cac:LegalMonetaryTotal>
+<cac:InvoiceLine>
+<cbc:ID>1</cbc:ID>
+<cbc:LineExtensionAmount currencyID="GBP">27.04</cbc:LineExtensionAmount>
+<cac:TaxTotal>
+<cbc:TaxAmount currencyID="GBP">5.41</cbc:TaxAmount>
+</cac:TaxTotal>
+<cac:Item>
+<cbc:Description>ABSOLUTE G-W NTNL 1.1MMX15"</cbc:Description>
+<cbc:Name>ABSOLUTE G-W NTNL 1.1MMX15"</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>254514</cbc:ID>
+</cac:SellersItemIdentification>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="GBP">162.26</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>2</cbc:ID>
+<cbc:LineExtensionAmount currencyID="GBP">27.04</cbc:LineExtensionAmount>
+<cac:TaxTotal>
+<cbc:TaxAmount currencyID="GBP">5.41</cbc:TaxAmount>
+</cac:TaxTotal>
+<cac:Item>
+<cbc:Description>ABSOLUTE G-W NTNL 1.1MMX15"</cbc:Description>
+<cbc:Name>ABSOLUTE G-W NTNL 1.1MMX15"</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>254514</cbc:ID>
+</cac:SellersItemIdentification>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="GBP">162.26</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>3</cbc:ID>
+<cbc:LineExtensionAmount currencyID="GBP">27.04</cbc:LineExtensionAmount>
+<cac:TaxTotal>
+<cbc:TaxAmount currencyID="GBP">5.41</cbc:TaxAmount>
+</cac:TaxTotal>
+<cac:Item>
+<cbc:Description>ABSOLUTE G-W NTNL 1.1MMX15"</cbc:Description>
+<cbc:Name>ABSOLUTE G-W NTNL 1.1MMX15"</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>254514</cbc:ID>
+</cac:SellersItemIdentification>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="GBP">162.26</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>4</cbc:ID>
+<cbc:LineExtensionAmount currencyID="GBP">27.04</cbc:LineExtensionAmount>
+<cac:TaxTotal>
+<cbc:TaxAmount currencyID="GBP">5.41</cbc:TaxAmount>
+</cac:TaxTotal>
+<cac:Item>
+<cbc:Description>ABSOLUTE G-W NTNL 1.1MMX15"</cbc:Description>
+<cbc:Name>ABSOLUTE G-W NTNL 1.1MMX15"</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>254514</cbc:ID>
+</cac:SellersItemIdentification>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="GBP">162.26</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>5</cbc:ID>
+<cbc:LineExtensionAmount currencyID="GBP">27.04</cbc:LineExtensionAmount>
+<cac:TaxTotal>
+<cbc:TaxAmount currencyID="GBP">5.41</cbc:TaxAmount>
+</cac:TaxTotal>
+<cac:Item>
+<cbc:Description>ABSOLUTE G-W NTNL 1.1MMX15"</cbc:Description>
+<cbc:Name>ABSOLUTE G-W NTNL 1.1MMX15"</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>254514</cbc:ID>
+</cac:SellersItemIdentification>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="GBP">162.26</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>6</cbc:ID>
+<cbc:LineExtensionAmount currencyID="GBP">27.04</cbc:LineExtensionAmount>
+<cac:TaxTotal>
+<cbc:TaxAmount currencyID="GBP">5.41</cbc:TaxAmount>
+</cac:TaxTotal>
+<cac:Item>
+<cbc:Description>ABSOLUTE G-W NTNL 1.1MMX15"</cbc:Description>
+<cbc:Name>ABSOLUTE G-W NTNL 1.1MMX15"</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>254514</cbc:ID>
+</cac:SellersItemIdentification>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="GBP">162.26</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>7</cbc:ID>
+<cbc:InvoicedQuantity>1.0</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="GBP">140.72</cbc:LineExtensionAmount>
+<cac:TaxTotal>
+<cbc:TaxAmount currencyID="GBP">28.14</cbc:TaxAmount>
+</cac:TaxTotal>
+<cac:Item>
+<cbc:Description>BIOINTRAFIX 8-10X30MM TAPERSCR</cbc:Description>
+<cbc:Name>BIOINTRAFIX 8-10X30MM TAPERSCR</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>254625</cbc:ID>
+</cac:SellersItemIdentification>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="GBP">140.72</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>8</cbc:ID>
+<cbc:InvoicedQuantity>1.0</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="GBP">140.72</cbc:LineExtensionAmount>
+<cac:TaxTotal>
+<cbc:TaxAmount currencyID="GBP">28.14</cbc:TaxAmount>
+</cac:TaxTotal>
+<cac:Item>
+<cbc:Description>BIOINTRAFIX TIBIAL SHEATH LGE</cbc:Description>
+<cbc:Name>BIOINTRAFIX TIBIAL SHEATH LGE</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>254628</cbc:ID>
+</cac:SellersItemIdentification>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="GBP">140.72</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+</Invoice>
+

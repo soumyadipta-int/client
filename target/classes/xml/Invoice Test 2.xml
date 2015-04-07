@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
+<cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+<cbc:CustomizationID>urn:www.cenbii.eu:transaction:biitrns016:ver1.0:extended:urn:www.peppol.eu:bis:peppol30a:ver1.0</cbc:CustomizationID>
+<cbc:ProfileID schemeID="urn:oioubl:id:profileid-1.2" schemeAgencyID="320"></cbc:ProfileID>
+<cbc:ID>0989407816</cbc:ID>
+<cbc:IssueDate>2015-02-12</cbc:IssueDate>
+<cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
+<cbc:DocumentCurrencyCode>GBP</cbc:DocumentCurrencyCode>
+<cac:OrderReference>
+<cbc:ID>725116280</cbc:ID>
+</cac:OrderReference>
+<cac:AccountingSupplierParty>
+<cbc:AdditionalAccountID schemeID="EAN">0801902000002</cbc:AdditionalAccountID>
+<cac:Party>
+<cac:PartyIdentification>
+<cbc:ID schemeID="DUNS">210319204</cbc:ID>
+</cac:PartyIdentification>
+<cac:PartyName>
+<cbc:Name>Teleflex Medical</cbc:Name>
+</cac:PartyName>
+<cac:PostalAddress>
+<cbc:AdditionalStreetName>Cressex Business Park, 138 Halifax Road</cbc:AdditionalStreetName>
+<cbc:CityName>High Wycombe</cbc:CityName>
+<cbc:PostalZone>HP12 3NB</cbc:PostalZone>
+<cbc:CountrySubentity>Buckinghamshire</cbc:CountrySubentity>
+<cac:Country>
+<cbc:Name>England</cbc:Name>
+</cac:Country>
+</cac:PostalAddress>
+</cac:Party>
+</cac:AccountingSupplierParty>
+<cac:AccountingCustomerParty>
+<cbc:CustomerAssignedAccountID schemeID="DUNS">10826</cbc:CustomerAssignedAccountID>
+<cbc:AdditionalAccountID schemeID="EAN">5033466164493</cbc:AdditionalAccountID>
+<cac:Party>
+<cac:PartyIdentification>
+<cbc:ID schemeID="DUNS">10826</cbc:ID>
+</cac:PartyIdentification>
+<cac:PartyName>
+<cbc:Name>Cardiff and Vale NHS Trust</cbc:Name>
+</cac:PartyName>
+<cac:PostalAddress>
+<cbc:StreetName>University Hospital of Wales</cbc:StreetName>
+<cbc:AdditionalStreetName>Heath Park</cbc:AdditionalStreetName>
+<cbc:CityName>Cardiff</cbc:CityName>
+<cbc:PostalZone>CF14 4XW</cbc:PostalZone>
+<cbc:CountrySubentity>South Glamorgan</cbc:CountrySubentity>
+<cac:Country>
+<cbc:Name>Wales</cbc:Name>
+</cac:Country>
+</cac:PostalAddress>
+</cac:Party>
+</cac:AccountingCustomerParty>
+<cac:TaxTotal>
+<cbc:TaxAmount currencyID="">13.0</cbc:TaxAmount>
+<cac:TaxSubtotal>
+<cbc:TaxableAmount currencyID="GBP">2268.75</cbc:TaxableAmount>
+<cbc:TaxAmount currencyID="GBP">453.75</cbc:TaxAmount>
+<cac:TaxCategory>
+<cbc:ID>vat</cbc:ID>
+<cbc:Percent>20.0</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>GB765368296</cbc:ID>
+</cac:TaxScheme>
+</cac:TaxCategory>
+</cac:TaxSubtotal>
+</cac:TaxTotal>
+<cac:LegalMonetaryTotal>
+<cbc:LineExtensionAmount currencyID="GBP">65.0</cbc:LineExtensionAmount>
+<cbc:TaxExclusiveAmount currencyID="GBP">65.0</cbc:TaxExclusiveAmount>
+<cbc:TaxInclusiveAmount currencyID="GBP">78.0</cbc:TaxInclusiveAmount>
+<cbc:PayableAmount currencyID="GBP">78.0</cbc:PayableAmount>
+</cac:LegalMonetaryTotal>
+<cac:InvoiceLine>
+<cbc:ID>1</cbc:ID>
+<cbc:InvoicedQuantity>1.0</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="GBP">65.0</cbc:LineExtensionAmount>
+<cac:TaxTotal>
+<cbc:TaxAmount currencyID="GBP">13.0</cbc:TaxAmount>
+</cac:TaxTotal>
+<cac:Item>
+<cbc:Description>INTRADUCER</cbc:Description>
+<cbc:Name>INTRADUCER</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>PI-63</cbc:ID>
+</cac:SellersItemIdentification>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="GBP">65.0</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+</Invoice>
+
